@@ -1,26 +1,41 @@
 import React, { forwardRef } from 'react';
+import { IoLogoGithub } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const HomeSection = forwardRef((props, ref) => (
-    <section ref={ref} id="home" className="p-4 mt-12 scroll-mt-12">
-        <div class="container">
-            <div class="flex md:flex-row flex-col">
-                <div class="basis-2/5">
-                    <div class="flex flex-col justify-center items-center h-[80vh]">
-                        <img src="https://avatars.githubusercontent.com/u/137646755?s=400&u=95d892047fb8209f74996e2dfc84c66f6c17e359&v=4"
-                            alt="Profile Picture"
-                        />
-                        <div class="flex flex-col items-center">
-                            <span class="text-3xl font-bold">Dingjiang Liang</span>
-                            <span class="text-xl">Software Engineer</span>
-                        </div>
-                    </div>
+    <section ref={ref} id="home" className="h-screen p-4 overflow-hidden">
+        <div className="container h-full flex justify-center items-center">
+            <div className="flex flex-col items-center justify-center">
+                <div className="image h-auto max-w-full rounded-full">
+                    <img src="https://api.esquirehk.com/var/site/storage/images/_aliases/img_1000_w/lifestyle/movies/stephen-chow-movies-life/428847-1-chi-HK/_1.jpg"
+                        className="w-64 h-64 rounded-full border-2 border-gray-300 object-cover"
+                        alt="Profile Picture"
+                    />
                 </div>
-                <div class="basis-3/5">
-                    <div class="flex flex-col justify-center items-center h-[80vh]">
-                        <span class="text-3xl font-bold">About Me</span>
-                        <span class="text-xl">I am a software engineer with a passion for web development. I have experience in working with React, Node.js, and Express.js. I am always looking for new opportunities to learn and grow as a developer.</span>
+                <ul className="flex flex-col items-center pt-4">
+                    <li className="text-2xl md:text-3xl font-bold">
+                        <span>Dingjiang Liang</span>
+                    </li>
+                    <li className="text-lg md:text-xl pt-1">
+                        <span>Software Engineer</span>
+                    </li>
+                    <div className="flex flex-row pt-2 space-x-4">
+                        <a href="" className="text-4xl">
+                            <MdEmail />
+                        </a>
+                        <a href="https://github.com/dww33" className="text-4xl">
+                            <IoLogoGithub />
+                        </a>
+                        <a href="https://www.linkedin.com/in/liang-dingjiang-b2b70731b" className="text-4xl">
+                            <FaLinkedin />
+                        </a>
+                        <a href="" className="text-4xl">
+                            <FaInstagramSquare />
+                        </a>
                     </div>
-                </div>
+                </ul>
             </div>
         </div>
     </section>
