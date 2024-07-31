@@ -1,15 +1,37 @@
 import React from 'react';
-import { GrLanguage } from "react-icons/gr";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+
+const languageNames = {
+  'en-US': '中文',
+  'zh-CN': 'English'
+};
 
 const Language = () => {
-    return (
-        <div class="navbar-language">
-          <a class="text-custom1 flex items-center">
-            <GrLanguage />
-            <span class="ml-2">Language</span>
-          </a>
-        </div>
-    );
-}
+  const router = useRouter();
+
+  const { locales, locale: currentLocale } = router;
+
+  return (
+
+    <li className="nav-item cursor-pointer text-custom1">
+      {locales.map((locale) => {
+        if (locale === currentLocale) return null;
+        return (
+
+          <Link
+            key={locale}
+            href={router.asPath}
+            locale={locale}
+            passHref
+            className="custom-underline"
+          >
+            <button>{languageNames[locale]}</button>
+          </Link>
+        );
+      })}
+    </li>
+  );
+};
 
 export default Language;
