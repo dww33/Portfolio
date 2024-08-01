@@ -5,10 +5,10 @@ import { useTranslation } from 'next-i18next';
 const AboutSection = () => {
     const { t } = useTranslation();
     return (
-        <section class="h-screen flex justify-center items-center h-screen">
-            <div class="container">
-                <div className='flex'>
-                    <div className="flex flex-col justify-center md:h-[80vh] space-y-4 mx-4 md:mx-8">
+        <section className="h-screen flex justify-center items-center">
+            <div className="container px-12 md:px-64">
+                <div className="flex">
+                    <div className="flex flex-col justify-center md:h-[80vh] space-y-4">
                         <h1 className="text-2xl md:text-3xl font-bold">
                             {t("about-title")}
                         </h1>
@@ -18,7 +18,7 @@ const AboutSection = () => {
                     </div>
                 </div>
             </div>
-        </section >
+        </section>
     )
 };
 

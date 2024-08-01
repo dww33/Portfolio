@@ -8,9 +8,7 @@ import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 const HomePage = () => {
-
     const { t } = useTranslation();
-
     return (
         <section
             className="bg-fixed h-screen p-4 overflow-hidden flex items-center justify-center"

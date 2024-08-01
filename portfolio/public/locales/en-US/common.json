@@ -6,5 +6,14 @@
   "resume": "Resume",
   "project": "Projects",
   "about-title": "About Me",
-  "about-text1": "Hello, I'm Dingjiang Liang, a Computer Engineer specializing in backend development. I work extensively with Express.js and PostgreSQL. My focus is on using IoT and AI to improve system efficiencies, particularly in inventory management. I'm committed to using technology to solve practical challenges and drive innovation in professional environments."
+  "about-text1": "Born in Zhongshan, Guangdong, China, I am a passionate computer engineer with a degree in Computer Engineering from the University of California, Santa Cruz, specializing in full stack development and FPGA design. I am proficient in Python, Java, C, and C++, with extensive experience in cloud services such as AWS and Google Cloud. As a backend developer, I am keen on building efficient and scalable solutions that help businesses achieve technological transformation and optimize operations.",
+  "contact-email": "Email",
+  "contact-media": "Social Media",
+  "contact-location": "Guangdong, China",
+  "contact-first-name": "First Name",
+  "contact-last-name": "Last Name",
+  "contact-message": "Message",
+  "contact-send": "Send",
+  "contact-me": "Contact me",
+  "project-text1":"No Projects To Show"
 }

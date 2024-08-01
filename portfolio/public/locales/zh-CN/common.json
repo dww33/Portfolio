@@ -6,6 +6,14 @@
   "resume": "简历",
   "project": "项目",
   "about-title": "关于我",
-  "about-text1": "你好，我是梁定江，一名专注于后端开发的计算机工程师。我在Express.js和PostgreSQL方面有丰富的经验。我的重点是利用物联网和人工智能提高系统效率，特别是在库存管理方面。我致力于利用技术解决实际挑战，并推动专业环境中的创新。"
-
+  "about-text1": "我出生于中国广东中山，一个对技术充满热情的计算机工程师。我在美国加州大学圣库鲁兹分校获得计算机工程学位，专注于全栈开发和FPGA设计。我精通Python、Java、C和C++，并且在使用AWS和Google Cloud等云服务方面拥有丰富经验。作为一名后端开发工程师，我热衷于构建高效、可扩展的解决方案，帮助企业实现技术转型和优化运营。",
+  "contact-email": "邮箱",
+  "contact-media": "社交媒体",
+  "contact-location": "广东，中国",
+  "contact-first-name": "名字",
+  "contact-last-name": "姓氏",
+  "contact-message": "信息",
+  "contact-send": "发送",
+  "contact-me": "联系我",
+  "project-text1":"目前没有任何项目想展示"
 }

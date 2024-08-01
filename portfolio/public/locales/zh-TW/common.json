@@ -1,0 +1,19 @@
+{
+  "name": "梁 定江",
+  "title": "軟體工程師",
+  "about": "關於",
+  "contact": "聯繫",
+  "resume": "簡歷",
+  "project": "項目",
+  "about-title": "關於我",
+  "about-text1": "我出生於中國廣東中山，一個對技術充滿熱情的計算機工程師。我在美國加州大學聖塔克魯茲分校獲得計算機工程學位，專注於全端開發和FPGA設計。我精通Python、Java、C和C++，並且在使用AWS和Google Cloud等雲服務方面擁有豐富經驗。作為一名後端開發工程師，我熱衷於構建高效、可擴展的解決方案，幫助企業實現技術轉型和優化運營。",
+  "contact-email": "電子郵件",
+  "contact-media": "社交媒體",
+  "contact-location": "廣東，中國",
+  "contact-first-name": "名字",
+  "contact-last-name": "姓氏",
+  "contact-message": "信息",
+  "contact-send": "發送",
+  "contact-me": "聯繫我",
+  "project-text1":"目前沒有任何項目可展示"
+}
